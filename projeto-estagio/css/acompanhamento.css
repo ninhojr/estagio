@@ -1,0 +1,15 @@
+#formLogin {
+    margin-top: 10px;
+}
+
+#formLogin h4 {
+    margin-bottom: 20px;
+}
+
+#formLogin input {
+    height: 50px;
+}
+
+#formLogin div button {
+    margin-bottom: 10px;
+}
