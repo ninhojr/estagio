@@ -39,44 +39,44 @@
                             <fieldset class="fieldset1">
                                 <h5>Dados Pessoais</h5>
                                     <div>
-                                        <input type="text" class="form-group col-md-4" placeholder="Nome Completo">
-                                        <input type="date" class="form-group col-md-4">
+                                        <input type="text" class="form-group col-md-4" placeholder="Nome Completo" required>
+                                        <input type="date" id="dataNasc" class="form-group col-md-4" required>
                                     </div>
                                     <div>
-                                        <input type="number" class="form-group col-md-4" placeholder="RG">
-                                        <input type="number" class="form-group col-md-4" placeholder="CPF">
+                                        <input type="number" class="form-group col-md-4" placeholder="RG" required>
+                                        <input type="number" class="form-group col-md-4" placeholder="CPF" required>
                                     </div>
                             </fieldset>
                             <hr>
                             <fieldset class="fieldset1 fieldsetColor">
                                 <h5>Endereço</h5>
                                     <div>
-                                        <input type="text" class="form-group col-md-4" placeholder="Cidade">
-                                        <select class="form-group col-md-4">
+                                        <input type="text" class="form-group col-md-4" placeholder="Cidade" required>
+                                        <select class="form-group col-md-4" required>
                                             <option>UF</option>
                                             <option>Distrito Federal</option>
                                             <option>Goiás</option>
                                         </select>
                                     </div>
                                     <div>
-                                        <input type="number" class="form-group col-md-4" placeholder="Descrição">
-                                        <input type="number" class="form-group col-md-4" placeholder="Bairro">
+                                        <input type="number" class="form-group col-md-4" placeholder="Descrição" required>
+                                        <input type="number" class="form-group col-md-4" placeholder="Bairro" required>
                                     </div>
                             </fieldset>
                             <hr>
                             <fieldset class="fieldset1">
                                 <h5>Contato</h5>
                                     <div>
-                                        <input type="number" class="form-group col-md-4" placeholder="Celular">
-                                        <input type="number" class="form-group col-md-4" placeholder="Residencial">
+                                        <input type="number" class="form-group col-md-4" placeholder="Celular" required>
+                                        <input type="number" class="form-group col-md-4" placeholder="Residencial" required>
                                     </div>
                                     <div>
-                                        <input type="number" class="form-group col-md-4" placeholder="Comercial">
-                                        <input type="email" class="form-group col-md-4" placeholder="E-mail">
+                                        <input type="number" class="form-group col-md-4" placeholder="Comercial" required>
+                                        <input type="email" class="form-group col-md-4" placeholder="E-mail" required>
                                     </div>
                                     <div>
-                                        <input type="password" class="form-group col-md-4" placeholder="Senha">
-                                        <input type="password" class="form-group col-md-4" placeholder="Confirmar Senha">
+                                        <input type="password" class="form-group col-md-4" placeholder="Senha" required>
+                                        <input type="password" class="form-group col-md-4" placeholder="Confirmar Senha" required>
                                     </div>
                             </fieldset>
                             <hr>
@@ -140,13 +140,45 @@
                                     <img src="../img/instagram.svg">
                                 </a>
                              </div>
-                             <img src="../img/logo-unieuro.png" id="logoRodape">
-                            <span class="badge badge-secondary" id="msgRodape">Central de Atendimento <br> 4020-7525</span>
+                             <div class="row">
+                                <div class="card border-dark mb-3 informacoes" style="max-width: 18rem;">
+                                    <div class="card-header">ESTUDE NA UNIEURO</div>
+                                    <div class="card-body text-dark">
+                                        <a href="#" class="card-text">Graduação</a>
+                                        <a href="#" class="card-text">Pós-Graduação</a>
+                                        <a href="#" class="card-text">Bolsas e Financiamentos</a>
+                                        <a href="#" class="card-text">Formas de ingresso</a>
+                                        <a href="#" class="card-text">Pesquisa & Entensão</a>
+                                        <a href="#" class="card-text">Rematricula Online</a>
+                                    </div>
+                                </div>
+                                <div class="card border-dark mb-3 informacoes" style="max-width: 18rem;">
+                                    <div class="card-header">MURAL E AVISOS</div>
+                                    <div class="card-body text-dark">
+                                        <a href="#" class="card-text">Calendário acadêmico</a>
+                                        <a href="#" class="card-text">Resultados</a>
+                                        <a href="#" class="card-text">Trabalhe conosco</a>
+                                        <a href="#" class="card-text">Portal  do engresso</a>
+                                        <a href="#" class="card-text">ENADE</a>
+                                    </div>
+                                </div>
+                                <div class="card border-dark mb-3 informacoes" style="max-width: 18rem;">
+                                    <div class="card-header">SERVIÇOS</div>
+                                    <div class="card-body text-dark">
+                                        <a href="#" class="card-text">Biblioteca</a>
+                                        <a href="#" class="card-text">Renovação online</a>
+                                        <a href="#" class="card-text">Ouvidoria</a>
+                                        <a href="#" class="card-text">Validação de documentos</a>
+                                        <a href="#" class="card-text">Acessibilidade</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
             </div>
         </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="../js/inscricao.js"></script>
   </body>
 </html>

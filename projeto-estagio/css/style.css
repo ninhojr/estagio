@@ -18,8 +18,8 @@ nav a {
 }
 
 #redesSociais img {
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
     margin-top: 20px;
     margin-left: 20px;
 }
@@ -27,8 +27,20 @@ nav a {
 #rodape {
     margin-top: 10px;
     margin-bottom: 10px;
-    height: 150px;
+    height: 320px;
     background-color: white;
+}
+
+.informacoes {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 16em
+}
+
+.informacoes a {
+    display: block;
+    color: black;
 }
 
 #logoRodape {
